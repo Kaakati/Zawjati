@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3620A71C1FB736005936FF /* iPhone_6_ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3620A61C1FB736005936FF /* iPhone_6_ScreenShot.png */; };
+		2B3620A91C1FB778005936FF /* iPhone_5_Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3620A81C1FB778005936FF /* iPhone_5_Screenshot.png */; };
+		2B3620AB1C1FB7BB005936FF /* iPhone_4s_Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3620AA1C1FB7BB005936FF /* iPhone_4s_Screenshot.png */; };
+		2B3620AD1C1FB7EB005936FF /* iPhone_6Plus_Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3620AC1C1FB7EB005936FF /* iPhone_6Plus_Screenshot.png */; };
 		2B3C19E11C1349C200685A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C19E01C1349C200685A31 /* AppDelegate.swift */; };
 		2B3C19E31C1349C200685A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C19E21C1349C200685A31 /* ViewController.swift */; };
 		2B3C19E61C1349C200685A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C19E41C1349C200685A31 /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3620A61C1FB736005936FF /* iPhone_6_ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6_ScreenShot.png; sourceTree = "<group>"; };
+		2B3620A81C1FB778005936FF /* iPhone_5_Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_5_Screenshot.png; sourceTree = "<group>"; };
+		2B3620AA1C1FB7BB005936FF /* iPhone_4s_Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_4s_Screenshot.png; sourceTree = "<group>"; };
+		2B3620AC1C1FB7EB005936FF /* iPhone_6Plus_Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6Plus_Screenshot.png; sourceTree = "<group>"; };
 		2B3C19DD1C1349C200685A31 /* Zawjati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zawjati.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3C19E01C1349C200685A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B3C19E21C1349C200685A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3620A51C1FB72C005936FF /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				2B3620AA1C1FB7BB005936FF /* iPhone_4s_Screenshot.png */,
+				2B3620A61C1FB736005936FF /* iPhone_6_ScreenShot.png */,
+				2B3620A81C1FB778005936FF /* iPhone_5_Screenshot.png */,
+				2B3620AC1C1FB7EB005936FF /* iPhone_6Plus_Screenshot.png */,
+			);
+			name = Screenshot;
+			sourceTree = "<group>";
+		};
 		2B3C19D41C1349C200685A31 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,7 @@
 		2B3C19DF1C1349C200685A31 /* Zawjati */ = {
 			isa = PBXGroup;
 			children = (
+				2B3620A51C1FB72C005936FF /* Screenshot */,
 				2B3C19E01C1349C200685A31 /* AppDelegate.swift */,
 				2B3C19E21C1349C200685A31 /* ViewController.swift */,
 				2B3C1A121C135D2800685A31 /* userDetailsViewController.swift */,
@@ -235,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3620AB1C1FB7BB005936FF /* iPhone_4s_Screenshot.png in Resources */,
+				2B3620AD1C1FB7EB005936FF /* iPhone_6Plus_Screenshot.png in Resources */,
 				2B3C19EB1C1349C200685A31 /* LaunchScreen.storyboard in Resources */,
 				2B3C19E81C1349C200685A31 /* Assets.xcassets in Resources */,
 				2B3C19E61C1349C200685A31 /* Main.storyboard in Resources */,
+				2B3620A91C1FB778005936FF /* iPhone_5_Screenshot.png in Resources */,
+				2B3620A71C1FB736005936FF /* iPhone_6_ScreenShot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
